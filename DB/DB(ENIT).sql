@@ -1,4 +1,4 @@
-create table proyecto(
+CREATE TABLE proyecto(
     id_proyecto               int(6)        AUTO_INCREMENT PRIMARY KEY,
     nombreC_proyecto          varchar(40),
     nombreD_proyecto          varchar(60),
@@ -11,15 +11,15 @@ create table proyecto(
     
 )
 
-create table autores(
+CREATE TABLE autores(
     id_autor                  int(6)        AUTO_INCREMENT PRIMARY KEY,
     nombre_autor              varchar(20),
     apellidoP_autor           varchar(20),
     apellidoM_autor           varchar(20),
     premedio_autor            float(5),
-    matricula_autor           int(12)       UNIQUE KEY,
-    curp_autor                varchar(18)   UNIQUE,
-    clave_elector_autor       varchar(18)   UNIQUE,
+    matricula_autor           int(12) ,
+    curp_autor                varchar(18),
+    clave_elector_autor       varchar(18),
     email_autor               varchar(35),
     genero_autor              varchar(10),
     expectativa_autor         varchar(50),
@@ -30,7 +30,7 @@ create table autores(
     
 )
 
-create table asesores(
+CREATE TABLE asesores(
     id_asesor                 int(6) AUTO_INCREMENT PRIMARY KEY,
     nombre_asesor             varchar(25),
     apellidoP_asesor          varchar(25),
