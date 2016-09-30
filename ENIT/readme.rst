@@ -1,6 +1,6 @@
 Proyecto
 Datos del proyecto
-
+
 Objetivo del proyecto
  1
 Inovacion del proyecto
