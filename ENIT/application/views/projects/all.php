@@ -1,1 +1,1 @@
-<h1>Mostar todos los proyectos</h1>
+<h1>Mostar todos los proyectos en esta parte </h1>
